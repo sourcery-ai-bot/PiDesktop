@@ -9,9 +9,7 @@ class Commander():
         if command and command[0] != '/':
             return ''
 
-        command = command.replace('/', '')
-
-        return command
+        return command.replace('/', '')
 
     def commands(self):
         return {
